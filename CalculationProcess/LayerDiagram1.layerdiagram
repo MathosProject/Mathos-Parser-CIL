@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="e587748a-ed81-44ef-a8de-56274e82f577" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="605d1af8-53a7-41a1-a61c-2ad1e51d9e0f" name="Before the runtime">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="a51ce0ca-97f6-41fa-9a8f-d475ed5e580c" direction="Forward">
+          <layerMoniker Id="3ade4a37-333b-4ac3-b372-b7d5c0ea97b6" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <childLayers>
+        <layer Id="7e96cadc-322a-4aab-a3ab-b1a321ba0dd0" name="Tokenization">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="215e3bc6-fcc0-4999-98fa-e46ce63f3c9e" direction="Forward">
+              <layerMoniker Id="ed7890ec-5bdb-4359-88da-e985f2b05841" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+        </layer>
+        <layer Id="ed7890ec-5bdb-4359-88da-e985f2b05841" name="Math Parser Logic">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="3d22279a-00ae-411c-a3cd-6d655bc0bdc6" direction="Forward">
+              <layerMoniker Id="87d158fd-b095-4883-89f3-4fc0ff1303c6" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+        </layer>
+        <layer Id="87d158fd-b095-4883-89f3-4fc0ff1303c6" name="Conversion to IL code and optimization" />
+      </childLayers>
+    </layer>
+    <layer Id="3ade4a37-333b-4ac3-b372-b7d5c0ea97b6" name="At the runtime">
+      <childLayers>
+        <layer Id="f4de2c9f-aee6-4f59-bc55-17ed4f568580" name="Load the assembly">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="fb49b291-e65a-4eaf-a943-445522c43476" direction="Forward">
+              <layerMoniker Id="2805980b-8379-47e3-b7e7-d28ed0ac9db0" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+        </layer>
+        <layer Id="2805980b-8379-47e3-b7e7-d28ed0ac9db0" name="Execute the method based on simple operations" />
+      </childLayers>
+    </layer>
+  </layers>
+</layerModel>

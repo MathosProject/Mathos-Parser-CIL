@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathosExpressionCompiler", "MathosExpressionCompiler\MathosExpressionCompiler.csproj", "{70957C57-FCE3-48B1-80EA-E89CB12440AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{ACBE2E35-772B-4417-96B4-B5DD14F0B348}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "CalculationProcess", "CalculationProcess\CalculationProcess.modelproj", "{66CB792E-8F77-454D-8D0A-62350D21EE81}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs18
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MathosExpressionCompiler\\MathosExpressionCompiler.csproj
+		SccProjectName1 = MathosExpressionCompiler
+		SccLocalPath1 = MathosExpressionCompiler
+		SccProjectUniqueName2 = UnitTestProject1\\UnitTestProject1.csproj
+		SccProjectName2 = UnitTestProject1
+		SccLocalPath2 = UnitTestProject1
+		SccProjectUniqueName3 = CalculationProcess\\CalculationProcess.modelproj
+		SccProjectName3 = CalculationProcess
+		SccLocalPath3 = CalculationProcess
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70957C57-FCE3-48B1-80EA-E89CB12440AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70957C57-FCE3-48B1-80EA-E89CB12440AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70957C57-FCE3-48B1-80EA-E89CB12440AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70957C57-FCE3-48B1-80EA-E89CB12440AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACBE2E35-772B-4417-96B4-B5DD14F0B348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACBE2E35-772B-4417-96B4-B5DD14F0B348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACBE2E35-772B-4417-96B4-B5DD14F0B348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACBE2E35-772B-4417-96B4-B5DD14F0B348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66CB792E-8F77-454D-8D0A-62350D21EE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66CB792E-8F77-454D-8D0A-62350D21EE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66CB792E-8F77-454D-8D0A-62350D21EE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66CB792E-8F77-454D-8D0A-62350D21EE81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
