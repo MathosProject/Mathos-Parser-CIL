@@ -4,4 +4,3 @@ An expression compiler based on Mathos Parser. It allows to convert mathematical
 
 Here are some useful links:
 * http://blog.artemlos.net/posts/mathos-parser-is-now-an-expression-compiler/
-* http://blog.artemlos.net/posts/the-advantages-of-pre-scanned-expressions/
